@@ -1,0 +1,150 @@
+body {
+    background-image: linear-gradient(#FF671F, #FFFFFF, #046A38, #06038D);
+}
+
+header {
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    color: goldenrod;
+    margin-bottom: 10px;
+    background-image: linear-gradient(#FF671F, #FFFFFF, #046A38, #06038D);
+}
+
+footer {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(208, 164, 42);
+    background-image: linear-gradient(#FF671F, #FFFFFF, #046A38, #06038D);
+
+}
+h4{
+    margin-right: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+    text-align: top;
+    background-color: #FF671F;
+    text-shadow: #FFFFFF;
+    margin-bottom: 300px;
+}
+#a {
+    grid-area: a1;
+    display: flex;
+    margin-bottom: 150px;
+    text-align:center;
+    text-indent: 20px;
+}
+
+#b {
+    grid-area: b1;
+    display: flex;
+    margin-bottom: 150px;
+    text-align: center;
+    text-indent: 20px;
+
+}
+
+#c {
+    grid-area: c1;
+    display: flex;
+    margin-bottom: 150px;
+    text-align: center;
+    text-indent: 20px;
+
+}
+
+#d {
+    grid-area: d1;
+    display: flex;
+    margin-bottom: 150px;
+    text-align: center;
+    text-indent: 20px;
+    text-align: center;
+    text-indent: 20px;
+
+}
+
+#e {
+    grid-area: e1;
+    display: flex;
+    margin-bottom: 150px;
+    text-align: center;
+    text-indent: 20px;
+
+}
+
+#f {
+    grid-area: g1;
+    display: flex;
+    margin-bottom: 150px;
+    text-align: center;
+    text-indent: 20px;
+
+}
+
+#g {
+    grid-area: f1;
+    display: flex;
+    margin-bottom: 150px;
+    text-align: center;
+    text-indent: 20px;
+
+}
+
+#h {
+    grid-area: h1;
+    display: flex;
+    margin-bottom: 150px;
+    text-align: center;
+    text-indent: 20px;
+
+}
+#i {
+    grid-area: i1;
+    display: flex;
+    height: 100px;
+    
+}
+#j {
+    grid-area: i1;
+    display: flex;
+    height: 10px;
+    width: 500px;
+    text-indent: 10px;
+    background-color: #e47d4d;
+}
+img{
+    border: 2px solid #db2828;
+    border-radius: 50px;
+}
+
+.maindiv {
+    display: grid;
+    grid-template-areas: 'a1 a1 a1 a1 a1 a1'
+        'b1 b1 b1 b1 b1 b1'
+        'c1 c1 c1 c1 c1 c1'
+        'd1 d1 d1 d1 d1 d1'
+        'e1 e1 e1 e1 e1 e1'
+        'f1 f1 f1 f1 f1 f1'
+        'g1 g1 g1 g1 g1 g1'
+        'h1 h1 h1 h1 h1 h1';
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/3476860/pexels-photo-3476860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+div {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    color: black;
+    text-shadow: 2px 2px white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 5px 5px black;
+}
